@@ -40,7 +40,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why nestedfunction can access the variable internal.
   
-// Explanation:  Because of Lexical Scope, in nested group of functions, the inner functions have access to the variables of their parent scope.  So since nestedFunction is lexically bound to the execution context of myFunction it then has access to the variable internal.
+// Explanation:  Because of Lexical Scope, in nested group of functions, the inner functions have access to the variables of their parent scope.  So since nestedFunction is lexically bound to myFunction it then has access to the variable internal.
 
 
 const external = "I'm outside the function";
